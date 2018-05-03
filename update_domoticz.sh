@@ -38,12 +38,14 @@ while getopts "uhd" o; do
         if [ "$version_running_low" -gt "$version_av_low" ]; then 
           echo "You are running later version, possibly manually make was issued"
           exit
-        elseif [ "$version_running_low" -eq "$version_avi_low" ] 
-          echo "You are up to date"
-          exit
         else
-          echo "Update available"
-          update=true
+          if [ "$version_running_low" -eq "$version_av_low" ]; then
+           echo "You are up to date"
+           exit
+          else
+           echo "Update available"
+           update=true
+          fi
         fi
        else 
         echo "Major numbers are not matchin we are running $version_running_maj and page shows that we have $version_av_maj" 
@@ -75,6 +77,16 @@ else
   echo "Copy of DB failed"
   exit
  fi
+ 
+ if cp -r /home/bbrowaros/domoticz/scripts /home/bbrowaros/domoticz_manual_backup/scripts_$DATE
+ then
+  chown -R bbrowaros:plex /home/bbrowaros/domoticz_manual_backup/scripts_$DATE
+  echo "Copy of script folder done" 
+ else
+  echo "Copy of script folder failed" 
+  exit
+ fi
+
 fi
 
 

@@ -1,0 +1,108 @@
+<center>
+<h1 style="color:#fff;">Stable</h1>
+	<table class="display" id="scenetable" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td style="width: 60px;"><img src="images/raspberry.png" width="40px" height="40px"/></td>
+				<td style="width: 230px; color:#fff;"><a href="release/domoticz_linux_armv7l.tgz"><span style="color: #fff;">Arm 32bit (Raspberry/Cubie/...)</span><a></td>
+				<td style="width: 60px; color:#fff;">3.8153
+<td>
+				<td style="width: 90px; color:#fff;">2017-07-30<td>
+				<td style="width: 90px; color:#fff;">13,64 MB<td>
+				<td style="width: 40px;"><a href="release/history_linux_armv7l.txt" target="_blank"><img src="images/history.png" width="16px" height="16px"/><a></td>
+			</tr>
+						<tr>
+				<td style="width: 60px;"><img src="images/raspberry.png" width="40px" height="40px"/></td>
+				<td style="width: 230px; color:#fff;"><a href="release/domoticz_linux_aarch64.tgz"><span style="color: #fff;">Arm 64bit (Cubie/ODroid/...)</span><a></td>
+				<td style="width: 60px; color:#fff;">3.8153
+<td>
+				<td style="width: 90px; color:#fff;">2017-07-30<td>
+				<td style="width: 90px; color:#fff;">14,02 MB<td>
+				<td style="width: 40px;"><a href="release/history_linux_aarch64.txt" target="_blank"><img src="images/history.png" width="16px" height="16px"/><a></td>
+			</tr>
+						<tr>
+				<td style="width: 60px;"><img src="images/windows.png" width="40px" height="40px"/></td>
+				<td style="width: 230px; color:#fff;"><a href="release/domoticz_windows_x86.zip"><span style="color: #fff;">Windows</span><a></td>
+				<td style="width: 60px; color:#fff;">3.8153
+<td>
+				<td style="width: 90px; color:#fff;">2017-07-30<td>
+				<td style="width: 90px; color:#fff;">14,27 MB<td>
+				<td style="width: 40px;"><a href="release/history_windows_x86.txt" target="_blank"><img src="images/history.png" width="16px" height="16px"/><a></td>
+			</tr>
+						<tr>
+				<td style="width: 60px;"><img src="images/osx.png" width="40px" height="40px"/></td>
+				<td style="width: 230px; color:#fff;"><a href="release/domoticz_osx_x86_64.tgz"><span style="color: #fff;">Mac/OSX</span><a></td>
+				<td style="width: 60px; color:#fff;">3.8153
+<td>
+				<td style="width: 90px; color:#fff;">2017-07-30<td>
+				<td style="width: 90px; color:#fff;">13,26 MB<td>
+				<td style="width: 40px;"><a href="release/history_osx_x86_64.txt" target="_blank"><img src="images/history.png" width="16px" height="16px"/><a></td>
+			</tr>
+						<tr>
+				<td style="width: 60px;"><img src="images/linux.png" width="40px" height="40px"/></td>
+				<td style="width: 230px; color:#fff;"><a href="release/domoticz_linux_x86_64.tgz"><span style="color: #fff;">Linux</span><a></td>
+				<td style="width: 60px; color:#fff;">3.8153
+<td>
+				<td style="width: 90px; color:#fff;">2017-07-30<td>
+				<td style="width: 90px; color:#fff;">13,86 MB<td>
+				<td style="width: 40px;"><a href="release/history_linux_x86_64.txt" target="_blank"><img src="images/history.png" width="16px" height="16px"/><a></td>
+			</tr>
+				</table>
+<h1 style="color:#fff;">Beta</h1>
+	<table class="display" id="scenetable" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td style="width: 60px;"><img src="images/raspberry.png" width="40px" height="40px"/></td>
+				<td style="width: 230px; color:#fff;"><a href="beta/domoticz_linux_armv7l.tgz"><span style="color: #fff;">Arm 32bit (Raspberry/Cubie/...)</span><a></td>
+				<td style="width: 60px; color:#fff;">3.9389
+<td>
+				<td style="width: 90px; color:#fff;">2018-05-01<td>
+				<td style="width: 90px; color:#fff;">12,65 MB<td>
+				<td style="width: 40px;"><a href="beta/history_linux_armv7l.txt" target="_blank"><img src="images/history.png" width="16px" height="16px"/><a></td>
+			</tr>
+						<tr>
+				<td style="width: 60px;"><img src="images/raspberry.png" width="40px" height="40px"/></td>
+				<td style="width: 230px; color:#fff;"><a href="beta/domoticz_linux_aarch64.tgz"><span style="color: #fff;">Arm 64bit (Cubie/ODroid/...)</span><a></td>
+				<td style="width: 60px; color:#fff;">3.9389
+<td>
+				<td style="width: 90px; color:#fff;">2018-04-30<td>
+				<td style="width: 90px; color:#fff;">13,1 MB<td>
+				<td style="width: 40px;"><a href="beta/history_linux_aarch64.txt" target="_blank"><img src="images/history.png" width="16px" height="16px"/><a></td>
+			</tr>
+						<tr>
+				<td style="width: 60px;"><img src="images/raspberry.png" width="40px" height="40px"/></td>
+				<td style="width: 230px; color:#fff;"><a href="https://gizmocuz.stackstorage.com/s/nN8MXBot7cKanTE" target="_blank"><span style="color: #fff;">Raspberry Pi SD Card Image</span><a></td>
+				<td style="width: 60px; color:#fff;">3.9048<td>
+				<td style="width: 90px; color:#fff;">2018-03-19<td>
+				<td style="width: 90px; color:#fff;">296,14 MB<td>
+				<td style="width: 40px;"></td>
+			</tr>
+						<tr>
+				<td style="width: 60px;"><img src="images/windows.png" width="40px" height="40px"/></td>
+				<td style="width: 230px; color:#fff;"><a href="beta/domoticz_windows_x86.zip"><span style="color: #fff;">Windows</span><a></td>
+				<td style="width: 60px; color:#fff;">3.9389
+<td>
+				<td style="width: 90px; color:#fff;">2018-04-30<td>
+				<td style="width: 90px; color:#fff;">12,15 MB<td>
+				<td style="width: 40px;"><a href="beta/history_windows_x86.txt" target="_blank"><img src="images/history.png" width="16px" height="16px"/><a></td>
+			</tr>
+						<tr>
+				<td style="width: 60px;"><img src="images/osx.png" width="40px" height="40px"/></td>
+				<td style="width: 230px; color:#fff;"><a href="beta/domoticz_osx_x86_64.tgz"><span style="color: #fff;">Mac/OSX</span><a></td>
+				<td style="width: 60px; color:#fff;">3.9389
+<td>
+				<td style="width: 90px; color:#fff;">2018-04-30<td>
+				<td style="width: 90px; color:#fff;">12,01 MB<td>
+				<td style="width: 40px;"><a href="beta/history_osx_x86_64.txt" target="_blank"><img src="images/history.png" width="16px" height="16px"/><a></td>
+			</tr>
+						<tr>
+				<td style="width: 60px;"><img src="images/linux.png" width="40px" height="40px"/></td>
+				<td style="width: 230px; color:#fff;"><a href="beta/domoticz_linux_x86_64.tgz"><span style="color: #fff;">Linux</span><a></td>
+				<td style="width: 60px; color:#fff;">3.9389
+<td>
+				<td style="width: 90px; color:#fff;">2018-04-30<td>
+				<td style="width: 90px; color:#fff;">12,09 MB<td>
+				<td style="width: 40px;"><a href="beta/history_linux_x86_64.txt" target="_blank"><img src="images/history.png" width="16px" height="16px"/><a></td>
+			</tr>
+				</table>
+<br><span style="color:#fff;">Raspberry Pi/Ubuntu installation: '</span><b><span style="color:#8ff;">sudo curl -L install.domoticz.com | bash</b></span><span style="color:#fff;">'</b></span><br>
+<a style="color:#fff;" href="https://www.domoticz.com/wiki/" target="_blank">Visit our Wiki for other installation guides</a>
+</center>
