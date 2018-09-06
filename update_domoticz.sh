@@ -18,7 +18,7 @@ ver_av=`grep Beta temp -A 5 | tail -1`
 version_av=${ver_av##*>}
 
 
-while getopts "uhd" o; do 
+while getopts "uhdi" o; do 
    case ${o} in 
      u) 
        version_running=`curl -s 'http://127.0.0.1:8080/json.htm?type=command&param=getversion' | python3 -c "import sys, json; print(json.load(sys.stdin)['version'])"`
@@ -49,7 +49,8 @@ while getopts "uhd" o; do
         fi
        else 
         echo "Major numbers are not matchin we are running $version_running_maj and page shows that we have $version_av_maj" 
-        exit
+       exit
+        #update=true
        fi
 
      ;;
