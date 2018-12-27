@@ -52,46 +52,46 @@
 			<tr>
 				<td style="width: 60px;"><img src="images/raspberry.png" width="40px" height="40px"/></td>
 				<td style="width: 230px; color:#fff;"><a href="beta/domoticz_linux_armv7l.tgz"><span style="color: #fff;">Arm 32bit (Raspberry/Cubie/...)</span><a></td>
-				<td style="width: 60px; color:#fff;">4.9985
+				<td style="width: 60px; color:#fff;">4.10303
 <td>
-				<td style="width: 90px; color:#fff;">2018-09-05<td>
-				<td style="width: 90px; color:#fff;">13,1 MB<td>
+				<td style="width: 90px; color:#fff;">2018-12-25<td>
+				<td style="width: 90px; color:#fff;">13,27 MB<td>
 				<td style="width: 40px;"><a href="beta/history_linux_armv7l.txt" target="_blank"><img src="images/history.png" width="16px" height="16px"/><a></td>
 			</tr>
 						<tr>
 				<td style="width: 60px;"><img src="images/raspberry.png" width="40px" height="40px"/></td>
 				<td style="width: 230px; color:#fff;"><a href="beta/domoticz_linux_aarch64.tgz"><span style="color: #fff;">Arm 64bit (Cubie/ODroid/...)</span><a></td>
-				<td style="width: 60px; color:#fff;">4.9961
+				<td style="width: 60px; color:#fff;">4.10300
 <td>
-				<td style="width: 90px; color:#fff;">2018-08-30<td>
-				<td style="width: 90px; color:#fff;">13,17 MB<td>
+				<td style="width: 90px; color:#fff;">2018-12-20<td>
+				<td style="width: 90px; color:#fff;">13,35 MB<td>
 				<td style="width: 40px;"><a href="beta/history_linux_aarch64.txt" target="_blank"><img src="images/history.png" width="16px" height="16px"/><a></td>
 			</tr>
 						<tr>
 				<td style="width: 60px;"><img src="images/windows.png" width="40px" height="40px"/></td>
 				<td style="width: 230px; color:#fff;"><a href="beta/domoticz_windows_x86.zip"><span style="color: #fff;">Windows</span><a></td>
-				<td style="width: 60px; color:#fff;">4.9960
+				<td style="width: 60px; color:#fff;">4.10300
 <td>
-				<td style="width: 90px; color:#fff;">2018-08-29<td>
-				<td style="width: 90px; color:#fff;">12,35 MB<td>
+				<td style="width: 90px; color:#fff;">2018-12-20<td>
+				<td style="width: 90px; color:#fff;">12,4 MB<td>
 				<td style="width: 40px;"><a href="beta/history_windows_x86.txt" target="_blank"><img src="images/history.png" width="16px" height="16px"/><a></td>
 			</tr>
 						<tr>
 				<td style="width: 60px;"><img src="images/osx.png" width="40px" height="40px"/></td>
 				<td style="width: 230px; color:#fff;"><a href="beta/domoticz_osx_x86_64.tgz"><span style="color: #fff;">Mac/OSX</span><a></td>
-				<td style="width: 60px; color:#fff;">4.9985
+				<td style="width: 60px; color:#fff;">4.9999
 <td>
-				<td style="width: 90px; color:#fff;">2018-09-05<td>
+				<td style="width: 90px; color:#fff;">2018-09-09<td>
 				<td style="width: 90px; color:#fff;">11,72 MB<td>
 				<td style="width: 40px;"><a href="beta/history_osx_x86_64.txt" target="_blank"><img src="images/history.png" width="16px" height="16px"/><a></td>
 			</tr>
 						<tr>
 				<td style="width: 60px;"><img src="images/linux.png" width="40px" height="40px"/></td>
 				<td style="width: 230px; color:#fff;"><a href="beta/domoticz_linux_x86_64.tgz"><span style="color: #fff;">Linux</span><a></td>
-				<td style="width: 60px; color:#fff;">4.9985
+				<td style="width: 60px; color:#fff;">4.10303
 <td>
-				<td style="width: 90px; color:#fff;">2018-09-05<td>
-				<td style="width: 90px; color:#fff;">12,15 MB<td>
+				<td style="width: 90px; color:#fff;">2018-12-25<td>
+				<td style="width: 90px; color:#fff;">12,23 MB<td>
 				<td style="width: 40px;"><a href="beta/history_linux_x86_64.txt" target="_blank"><img src="images/history.png" width="16px" height="16px"/><a></td>
 			</tr>
 				</table>

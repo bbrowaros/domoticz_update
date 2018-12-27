@@ -49,8 +49,12 @@ while getopts "uhdi" o; do
         fi
        else 
         echo "Major numbers are not matchin we are running $version_running_maj and page shows that we have $version_av_maj" 
-       exit
-        #update=true
+       read -p "Do you want to update the major version of Domoticz [y/n]?" yn
+       case $yn in 
+        [Yy]* ) update=true;
+                break;;
+        [Nn]* ) exit;;
+       esac
        fi
 
      ;;
