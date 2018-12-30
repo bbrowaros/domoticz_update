@@ -1,5 +1,27 @@
 #!/bin/bash
-usage () { echo "Usage: $0 [-u] for update " 1>&2; exit 1; }
+
+#########################################
+#	PUMBA DOMOTICZ UPDATE SCRIPT	#
+# Script vrote to automatic backup and 	#
+# update domoticz BETA releases 	#
+#					#
+#########################################
+
+VERSION="0.2"
+
+##Version tracking
+# 0.2 - added some nice look during auto-update to prevent from seeing blank screen during copy, added version control 
+# 0.1 - first release, basic options -u and -h, support for detecting if script was stared as root 
+
+
+usage () { echo "Usage: $0 "
+           echo " Script needs to be started as root" 
+           echo "      [-u] for update " 
+           echo "      [-v] for version " 1>&2; exit 1; }
+version_show () {
+           echo "Version $VERSION"
+            }
+
 
 if [ "$EUID" -ne 0 ]
   then echo "Please run as root"
@@ -18,7 +40,7 @@ ver_av=`grep Beta temp -A 5 | tail -1`
 version_av=${ver_av##*>}
 
 
-while getopts "uhdi" o; do 
+while getopts "uhdv" o; do 
    case ${o} in 
      u) 
        version_running=`curl -s 'http://127.0.0.1:8080/json.htm?type=command&param=getversion' | python3 -c "import sys, json; print(json.load(sys.stdin)['version'])"`
@@ -64,6 +86,10 @@ while getopts "uhdi" o; do
      d)
        debug=true
      ;;
+     v)
+       version_show
+       exit
+     ;;
      *)
      ;;
    esac
@@ -72,23 +98,27 @@ done
 DATE=`date +%d_%m_%Y_%H%M`
 
 if $debug; then 
-  echo "Debug not performing any copy"
+  echo "Debug not performing any copy actual copy" 
+  
 else
+ echo -n "Copy of DB ..."
  if cp -r /home/bbrowaros/domoticz/domoticz.db /home/bbrowaros/domoticz_manual_backup/domoticz_$DATE.db
  then
   chown -R bbrowaros:plex /home/bbrowaros/domoticz_manual_backup/domoticz_$DATE.db
-  echo "Copy of DB done"
+  echo "done"
  else
-  echo "Copy of DB failed"
+  echo "failed"
   exit
  fi
- 
+
+
+echo -n "Copy of script folder ...." 
  if cp -r /home/bbrowaros/domoticz/scripts /home/bbrowaros/domoticz_manual_backup/scripts_$DATE
  then
   chown -R bbrowaros:plex /home/bbrowaros/domoticz_manual_backup/scripts_$DATE
-  echo "Copy of script folder done" 
+  echo "done" 
  else
-  echo "Copy of script folder failed" 
+  echo "failed" 
   exit
  fi
 
@@ -100,12 +130,14 @@ if $update; then
 if $debug; then 
  echo "Debug not performing copy of db and update"
 else
+
+echo -n "Copy of domoticz folder ... "
 if cp -r /home/bbrowaros/domoticz /home/bbrowaros/domoticz_old_vers/domoticz$DATE
  then
  chown -R bbrowaros:plex /home/bbrowaros/domoticz_old/vers/domoticz$DATE
- echo "Copy of domoticz folder done"
+ echo "done"
 else 
- echo "Copy of domoticz folder failed, please check manually" 
+ echo "failed, please check manually" 
  exit
 fi
 
