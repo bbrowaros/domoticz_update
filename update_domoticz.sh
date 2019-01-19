@@ -2,14 +2,15 @@
 
 #########################################
 #	PUMBA DOMOTICZ UPDATE SCRIPT	#
-# Script vrote to automatic backup and 	#
+# Script wrote to automatic backup and 	#
 # update domoticz BETA releases 	#
 #					#
 #########################################
 
-VERSION="0.2"
+VERSION="0.3"
 
 ##Version tracking
+# 0.3 - changed the time format in filename to better list all copies via ls 
 # 0.2 - added some nice look during auto-update to prevent from seeing blank screen during copy, added version control 
 # 0.1 - first release, basic options -u and -h, support for detecting if script was stared as root 
 
@@ -95,7 +96,7 @@ while getopts "uhdv" o; do
    esac
 done 
 
-DATE=`date +%d_%m_%Y_%H%M`
+DATE=`date +%Y_%m_%d_%H%M`
 
 if $debug; then 
   echo "Debug not performing any copy actual copy" 
