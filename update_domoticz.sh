@@ -7,9 +7,10 @@
 #					#
 #########################################
 
-VERSION="0.3"
+VERSION="0.4"
 
 ##Version tracking
+# 0.4 - adding cert copy after upgrade
 # 0.3 - changed the time format in filename to better list all copies via ls 
 # 0.2 - added some nice look during auto-update to prevent from seeing blank screen during copy, added version control 
 # 0.1 - first release, basic options -u and -h, support for detecting if script was stared as root 
@@ -144,6 +145,9 @@ fi
 
 cd /home/bbrowaros/domoticz
 ./updatebeta
+#restoring cert
+cp /home/bbrowaros/domoticz/server_cert.pem_back /home/bbrowaros/domoticz/server_cert.pem
+
 fi
 
 fi
