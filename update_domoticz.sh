@@ -10,6 +10,7 @@
 VERSION="0.4"
 
 ##Version tracking
+# 0.5 - adding description where the file are copy for easy recovery 
 # 0.4 - adding cert copy after upgrade
 # 0.3 - changed the time format in filename to better list all copies via ls 
 # 0.2 - added some nice look during auto-update to prevent from seeing blank screen during copy, added version control 
@@ -103,7 +104,7 @@ if $debug; then
   echo "Debug not performing any copy actual copy" 
   
 else
- echo -n "Copy of DB ..."
+ echo -n "Copy of DB to ..."
  if cp -r /home/bbrowaros/domoticz/domoticz.db /home/bbrowaros/domoticz_manual_backup/domoticz_$DATE.db
  then
   chown -R bbrowaros:plex /home/bbrowaros/domoticz_manual_backup/domoticz_$DATE.db
@@ -133,7 +134,7 @@ if $debug; then
  echo "Debug not performing copy of db and update"
 else
 
-echo -n "Copy of domoticz folder ... "
+echo -n "Copy of domoticz folder to /home/bbrowaros/domoticz_old_vers/domoticz$DATE/ ... "
 if cp -r /home/bbrowaros/domoticz /home/bbrowaros/domoticz_old_vers/domoticz$DATE
  then
  chown -R bbrowaros:plex /home/bbrowaros/domoticz_old/vers/domoticz$DATE
