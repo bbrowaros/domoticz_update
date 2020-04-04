@@ -195,7 +195,7 @@ else
  exit
 fi
 
-cd /home/bbrowaros/domoticz
+cd $DOMOTICZ_PATH
 ./updatebeta
 #restoring cert
 cp /home/bbrowaros/domoticz/server_cert.pem_back /home/bbrowaros/domoticz/server_cert.pem
